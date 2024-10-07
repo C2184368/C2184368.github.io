@@ -1,0 +1,63 @@
+/*Catherine Noh
+Mesa Community College
+CIS133DA Milestone 5
+September 27, 2024*/
+
+* {box-sizing: border-box}
+
+body    {background-color: #c1cfdf;
+    color: #393327;
+    font-family: sans-serif;}
+    #wrapper       {background-color: #FFFFFF;}
+h1      {margin-bottom: 0;
+    color: #4c5d3f;
+    font-family: "Times New Roman", 'Times New Roman', sans-serif;}
+h2      {color: #FFFFFF;
+    font-family: 'Times New Roman', Times, serif}
+h3      {color: #9e8f75;
+    font-family: sans-serif;}
+
+@media (max-width: 600px) {
+    nav  {display: flex;
+                flex-direction: column;
+                flex-wrap: nowrap;
+                justify-content: space-around;
+      border-bottom: none;}
+    section {margin-left: 2em; margin-right: 2em;
+                flex: 1;}
+    .flow           {display: flex;
+                        flex-direction: row;}
+}
+/*name of a class, which gets applied to an element*/
+.resort {font-weight: bold;}
+/*name of an id which can only be pulled once per webpage*/
+#contact {font-size: 90%;}
+
+/*header image added to each webpage that has header coded*/
+#homehero       {height: 300px;
+    background-image: url(HomepageHeader.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+header  {background-color: #723c28;
+color: #fbffff;
+background-repeat: no-repeat;
+background-position: right;
+line-height: 400%;
+text-indent: 1em;
+text-align: left;}
+
+nav     {background-color: #BBDEFB;
+    font-weight: bold;
+    padding: 0em;
+    font-size: 120%;
+    text-align: center}
+a   {text-decoration: none}
+
+/*footer style at the bottom of each webpage that has footer coded*/
+footer  {background-color: #c1cfdf;
+    
+    font-size: 75%;
+    font-style: italic;
+    text-align: center;
+    font-family: Georgia, serif;}
