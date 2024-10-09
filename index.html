@@ -3,11 +3,11 @@
 <head>
 <title>Short Stays in San Diego</title>
 <meta charset="utf-8">
-<link href="finalWebsitePractice.css" rel="stylesheet">
+<link href="finalWebsite.css" rel="stylesheet"><!--change css name for final submission-->
 <!--Catherine Noh
 Mesa Community College
 CIS133DA Final Website
-October 7, 2024-->
+October 8, 2024-->
 <meta name="viewport"
 content="width=device-width, initial-scale=1.0">
 </head>
@@ -18,17 +18,29 @@ content="width=device-width, initial-scale=1.0">
         <h1>Short Stays in San Diego</h1>
     </div>
 </header>
-<nav>
+<div class="topnav" id="myTopnav">
   <a href="downtown.html">Around Downtown</a> &nbsp; 
   <a href="about.html">About</a>  &nbsp; 
   <a href="north.html">North County</a>  &nbsp; 
   <a href="hiking.html">Mountain Hiking</a>
-</nav>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <img src="menupic.png" height="25" width="50"></i><!--google image source added-->
+  </a>
+</div>
+<script>function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  } </script><!--W3CSchools-->
 <main>
 <h2>Welcome</h2>
 <p>There can be a wide variety of events to see and things to do in San Diego. This website can help you see some of the big variety of items you can do in a short weekend visit.<br> 
     To navigate this website, please use the buttons above.
 </p>
+
 </main>
 <footer>
 Created by Catherine Noh<br>
