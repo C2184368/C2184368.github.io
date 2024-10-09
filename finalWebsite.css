@@ -23,6 +23,7 @@ h3      {color: #4c5d3f;
         font-size: 120%;
         text-align: center}
 .topnav a   {text-decoration: none}
+.topnav a:visited {color: #393327;}
 .topnav a:hover {
         color: black;
       }
@@ -96,6 +97,7 @@ text-indent: 1em;
 text-align: left;}
 header a        {text-decoration: none;}
 header a:link   {color: #FFFFFF;}
+header a:visited {color: #c1cfdf}
 
 footer  {background-color: #c1cfdf;
     
